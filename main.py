@@ -10,7 +10,7 @@ def greeting(idx: int, name: str):
 
 
 def main():
-    for idx, name in enumerate(["james", "subscriber", "other"], start=1):
+    for idx, name in enumerate(["ahmed", "subscriber", "other"], start=1):
         greeting(id=idx, name=name)
 
 
