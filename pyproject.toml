@@ -14,6 +14,8 @@ python-dotenv = ">=1.1.0,<2.0.0"
 torch = { version = "2.3.0+cpu", source = "pytorch-cpu" }
 sentence-transformers = "^2.2.0"
 pre-commit = "^4.2.0"
+celery = "^5.5.3"
+flower = "^2.0.1"
 
 [[tool.poetry.source]]
 name = "pytorch-cpu"
